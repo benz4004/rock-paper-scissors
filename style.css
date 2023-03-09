@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 50px;
+}
+.btns{
+    display: flex;
+    flex: 1;
+    gap:50px
+
+}
+button{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    min-width: 200px;
+
+}
+#rock {
+    
+}
+
+#paper {}
+
+#scissors {}
+
+.result {
+    align-items: center;
+    background: #FFF;
+    color: rgb(29, 11, 190);
+    font-size: medium;
+    font-size: 20px;
+
+}
+
+.gameResult {
+    font-size: 60px;
+    background-color: #aacbfc;
+
+}
